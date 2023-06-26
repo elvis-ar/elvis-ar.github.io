@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section-store{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+}
+
+.section-store article{
+    margin-top: 30px;
+    padding: 5px;
+    width: 90%;
+    box-shadow: 8px 8px 3px #343232a1;
+    background-color: #13283d;
+    border-radius: 10px;
+}
+
+.section-store article i,
+.section-store article div,
+.section-store article p,
+.section-store article button{
+    display: block;
+    margin: 10px;
+    text-align: center;
+    width: 80%;
+    margin:  0 auto;
+    padding: 10px;
+    color: #fff;
+}
+
+.section-store article p{
+    font-family: helvetica;
+}
+
+.section-store article div{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.section-store article i{
+    font-size: 70px;
+    background-color: #fff;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.section-store article div h3{
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: Helvetica, arial, sans-serif;
+    /* color: #0d1f32; */
+}
+
+.section-store article div span{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.section-store article .button-comprar{
+    width: auto;
+    background-color: #13b235;
+    border-radius: 15px;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 900;
+    font-family: sans-serif;
+    padding: 5px 15px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+.section-store article .button-comprar:hover{
+scale: 1.1;
+
+}
+
+.section-store article .button-comprar:active{
+scale: 1;
+}
+
+.section-store article i.html5{
+    color: #F64A1D;
+}
+.section-store article i.css3{
+    color: #1572B6;
+}
+.section-store article i.js{
+    color: #F7DF1E;
+}
+.section-store article i.php{
+    color: #6251a7;
+}
+.section-store article i.database{
+    color: #A2B2B9;
+}
