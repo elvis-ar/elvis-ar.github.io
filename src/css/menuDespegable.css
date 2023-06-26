@@ -65,7 +65,7 @@ nav ul li a{
     float: right;
     height: 100%;
     margin-right: 40px;
-    padding-top: calc(15vh/3.4);
+    padding-top: calc(10vh/3);
     cursor: pointer;
 }
 

@@ -1,0 +1,50 @@
+footer{
+    margin-top: -6px;
+}
+
+footer section div p{
+    display: inline-block;
+}
+footer .link-redes{
+    display: flex;
+    flex-direction: column;
+    background-color: #000;
+    align-items: center;
+}
+
+footer .link-redes div{
+    margin: 5px 0;
+}
+
+footer .link-redes div i,
+footer .link-redes div p,
+footer .link-redes div a{
+    font-size: 20px;
+    color: #fff;
+}
+
+footer .link-redes div a{
+    color: #fff;
+}
+
+footer .copyright{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #13283d;
+    padding: 10px;
+}
+
+footer .copyright .p{
+    margin-right: 10px;
+}
+
+footer .copyright p,
+footer .copyright i{
+    font-size: 20px;
+    color: #fff;
+}
+
+
+
+

@@ -40,8 +40,9 @@ transition: all width 2s, height 4s;
     background-color: #fff;
     border-radius: 15px;
     cursor: pointer;
-    margin-bottom: 10px;
-    background-color: #13283d;
+    margin-bottom: 30px;
+    background-color: #13b235;
+    border: none;
 }
 
 .button a{
