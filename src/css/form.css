@@ -1,0 +1,71 @@
+form{
+    border: 1px solid #000;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: #ddd;
+    border-radius: 5px;
+}
+form div{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+
+.form h3{
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    color: #13283d;
+    font-family: helvetica;
+}
+
+form div input,
+form div textarea{
+    width: 70%;
+}
+
+form label{
+    width: 30%;
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: #000;
+    margin: 5px 10px;
+    align-self: flex-start;
+    text-align: right;
+}
+form input, form textarea{
+    justify-self: start;
+}
+
+form input,form textarea{
+    border: 1px solid #13283d;
+}
+
+
+form div input:focus,
+form div textarea:focus{
+    border: 3px solid blue;
+}
+
+form button{
+    background-color: #13283d;
+    width: 30%;
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+}
+
+form button:hover{
+    scale: 1.1;
+}
+form button:active{
+    scale: 1;
+}

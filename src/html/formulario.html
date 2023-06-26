@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../css/menuDespegable.css">
     <link rel="stylesheet" href="../css/formulario.css">
     <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/form.css">
 
     <script src="https://kit.fontawesome.com/3767a24acd.js" crossorigin="anonymous"></script>
     
@@ -39,35 +40,107 @@
     
     </header>
 
-
-
-
-
-
-
-    <footer>
-        <section class="link-redes">
+    <section class="form">
+        <h3>AGREGAR CURSO</h3>
+        <form action="">
             <div>
-                <i class="fa-brands fa-square-whatsapp"></i>
-                <p>1121614235</p>
+                <label for="name">Nombre:</label>
+                <input type="text" required id="name">
             </div>
-            <div>
-                <i class="fa-brands fa-linkedin"></i>
-                <a href="https://www.linkedin.com/in/elvis-arias95/">Linkedin</a>
-            </div>
-            <div>
-                <i class="fa-brands fa-square-github"></i>
-                <a href="https://github.com/elvis-ar">GitHub</a>
-            </div>
-        </section>
 
-        <section class="copyright">
-            <p class="p">Todos los derechos reservados</p>
-            <i class="fa-regular fa-copyright"></i>
-            <p>AriasIT</p>
-        </section>
-    </footer>
+            <div>
+                <label for="id">ID:</label>
+                <input type="id" required id="id">
+            </div>
 
+            <div>
+                <label for="price">Precio:</label>
+                <input type="text" required id="price">
+            </div>
+
+            <div>
+                <label for="descriction">Descripción:</label>
+                <textarea name="menssage" id="descriction" cols="20" rows="10"></textarea>
+            </div>
+
+            <div>
+                <button type="submit">ENVIAR</button>
+            </div>
+        </form>
+
+        <h3>BUSCAR CURSO</h3>
+        <form action="">
+            <div>
+                <label for="name">Nombre:</label>
+                <input type="text" required id="name">
+            </div>
+
+            <div>
+                <label for="id">ID:</label>
+                <input type="id" required id="id">
+            </div>
+        </form>
+
+        <h3>ACTUALIZAR CURSO</h3>
+        <form action="">
+            <div>
+                <label for="id">ID:</label>
+                <input type="text" required id="id">
+            </div>
+
+            <div>
+                <label for="name">Nombre:</label>
+                <input type="text" required id="name">
+            </div>
+
+            <div>
+                <label for="price">Precio:</label>
+                <input type="text" required id="price">
+            </div>
+
+            <div>
+                <label for="descriction">Descripción:</label>
+                <textarea name="menssage" id="descriction" cols="20" rows="10"></textarea>
+            </div>
+        </form>
+
+        <h3>ELIMINAR CURSO</h3>
+        <form action="">
+            <div>
+                <label for="name">Nombre:</label>
+                <input type="text" required id="name">
+            </div>
+
+            <div>
+                <label for="id">ID:</label>
+                <input type="text" required id="id">
+            </div>
+        </form>
+
+
+        <footer>
+            <section class="link-redes">
+                <div>
+                    <i class="fa-brands fa-square-whatsapp"></i>
+                    <p>1121614235</p>
+                </div>
+                <div>
+                    <i class="fa-brands fa-linkedin"></i>
+                    <a href="https://www.linkedin.com/in/elvis-arias95/">Linkedin</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-square-github"></i>
+                    <a href="https://github.com/elvis-ar">GitHub</a>
+                </div>
+            </section>
+
+            <section class="copyright">
+                <p class="p">Todos los derechos reservados</p>
+                <i class="fa-regular fa-copyright"></i>
+                <p>AriasIT</p>
+            </section>
+        </footer>
+    </section>
     
 
 </body>
