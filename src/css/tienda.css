@@ -8,7 +8,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 15px;
+    margin: 30px;
+    
 }
 
 .section-store article{
@@ -101,4 +102,25 @@ scale: 1;
 }
 .section-store article i.database{
     color: #A2B2B9;
+}
+.section-store article i.git{
+    color: #F3501D;
+}
+
+/* ###################################################### */
+/* ----------------estilo a tablet---------------------- */
+
+@media (min-width: 800px){
+    .section-store {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .section-store article{
+        height: 300px;
+    
+    }
+    
 }

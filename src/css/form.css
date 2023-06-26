@@ -74,3 +74,15 @@ form button:hover{
 form button:active{
     scale: 1;
 }
+
+/* ########################################################### */
+/* ------------------estilo para tablet---------------------- */
+@media (min-width: 800px){
+    .form{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height: 100vh;
+        margin-bottom: 100px;
+    }
+    
+}

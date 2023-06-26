@@ -20,10 +20,6 @@ nav ul{
     background: #13283d;
     left: -100%;
     text-align: center;
-    /* display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center; */
     transition: all .6s;
 }
 
@@ -88,7 +84,45 @@ nav ul li a:active{
     left: 0;
 }
 
-/* li a.active, li a:hover{
-    background-color: #13283d;
-    transition: .6s;
+/* ############################################################ */
+/*-------------------------estilo para tablet-----------------*/
+@media (min-width: 800px) {
+    .checkbtn{
+        display: none;
+    }
+
+    nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    nav ul{
+        position: relative;
+        width: 80%;
+        height: 10vh;
+        left: 0;
+        display: flex;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        background-color: #2fcdcd;
+    }
+
+    nav ul li{
+        font-weight: bold;
+        justify-self: flex-end;
+    }
+
+    nav ul li:hover{
+        background-color: #13283d;
+        color: #fff;
+        border-radius: 10px;
+        scale: none;
+    }
+    
+    nav ul li a{
+        color: #13283d;
+    }
+
 }

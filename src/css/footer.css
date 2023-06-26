@@ -45,6 +45,29 @@ footer .copyright i{
     color: #fff;
 }
 
+/* ############################################### */
+/* -------------estilo para tabley---------------- */
 
+@media (min-width: 800px){
+    footer{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 31px;
+    }
+
+    footer .link-redes{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    footer .link-redes div{
+        margin: 15px 0;
+    }
+
+    .copyright{
+        width: 100%;
+    }
+}
 
 

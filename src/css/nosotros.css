@@ -35,14 +35,13 @@ transition: all width 2s, height 4s;
 }
 
 .button{
-    
-    /* border:1px solid #2fcdcd;; */
     background-color: #fff;
     border-radius: 15px;
     cursor: pointer;
     margin-bottom: 30px;
     background-color: #13b235;
     border: none;
+    box-shadow: 5px 5px 5px #000;
 }
 
 .button a{
@@ -59,4 +58,35 @@ transition: all width 2s, height 4s;
 }
 .button:active{
     scale: 1;
+}
+
+/* ####################################################### */
+/* -------------------------estilo a tablet-------------- */
+
+@media (min-width: 800px){
+    .container__main .container--item{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .container--item p{
+        font-size: 1.1rem;
+    }
+
+    .article-button{
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #fff;
+    }
+    .button{
+        padding: 5px 15px;
+        margin: 0 0 10px 0;
+    }
+
+    .button a{
+        font-size: 1.2rem;
+    }
 }
