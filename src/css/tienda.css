@@ -122,5 +122,21 @@ scale: 1;
         height: 300px;
     
     }
+}
+
+
+/* ######################################################### */
+/* -------------estilo para desktop---------------- */
+
+@media (min-width: 920px){
+    .section-store {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+    }
     
+    .section-store article{
+        height: 300px;
+    }
 }

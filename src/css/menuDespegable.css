@@ -116,13 +116,40 @@ nav ul li a:active{
 
     nav ul li:hover{
         background-color: #13283d;
-        color: #fff;
+        color: #2fcdcd;
         border-radius: 10px;
         scale: none;
     }
     
     nav ul li a{
         color: #13283d;
+        width: 100%;
     }
 
+}
+
+/* ############################################################ */
+/*-------------------------estilo para desktop-----------------*/
+
+@media (min-width: 920px){
+
+    nav a{
+        width: 30%;
+        padding: 15px;
+
+    }
+    nav ul{
+        width: 70%;
+        justify-content: flex-end;
+    }
+
+    nav ul li{
+        margin: 0;
+        margin-right: 30px;
+    }
+
+    .container__principal {
+        width: 90%;
+        margin: 0 auto;
+    }
 }

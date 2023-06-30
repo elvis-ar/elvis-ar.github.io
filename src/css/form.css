@@ -7,7 +7,7 @@ form{
     flex-direction: column;
     padding: 10px;
     background-color: #ddd;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 form div{
     display: flex;
@@ -83,6 +83,18 @@ form button:active{
         grid-template-columns: 1fr 1fr;
         height: 100vh;
         margin-bottom: 100px;
-    }
-    
+    }   
 }
+
+/* ######################################################### */
+/* -------------estilo para desktop---------------- */
+@media (min-width: 920px){
+    .form{
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height: 100%;
+        margin-bottom: 100px;
+    }   
+}
+

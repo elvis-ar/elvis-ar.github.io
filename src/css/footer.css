@@ -71,3 +71,18 @@ footer .copyright i{
 }
 
 
+/* ######################################################### */
+/* -------------estilo para desktop---------------- */
+
+footer{
+    width: 100%;
+}
+footer .link-redes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .link-redes div{
+    margin: 10px 50px;
+}

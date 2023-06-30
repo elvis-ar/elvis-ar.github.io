@@ -90,3 +90,24 @@ transition: all width 2s, height 4s;
         font-size: 1.2rem;
     }
 }
+
+
+/* ######################################################### */
+/* -------------estilo para desktop---------------- */
+@media (min-width: 920px){
+    .container__main .container--item{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .container__main .container--item p{
+        width: 90%;
+    }
+
+    .article-button{
+        margin-bottom: 90px;
+    }
+    
+}
